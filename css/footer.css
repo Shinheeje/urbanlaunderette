@@ -1,0 +1,133 @@
+footer {
+  background-color: black;
+  color: white;
+  }
+footer a{
+  color: white;
+}
+
+  footer div.inner {
+    height: 300px;
+    align-items: flex-end;
+    margin-top: 100px;
+    position:relative;
+  }
+  footer div.inner h1 {
+    
+  }
+  footer div.inner .left {
+    
+  }
+  footer div.inner .left .tel {
+    font-weight: 900;
+    
+  }
+  footer div.inner .left .tel p.phone {
+    line-height: 1.4
+  }
+  footer div.inner .left .tel p.phone strong {
+    display: block;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 20px;
+  }
+  footer div.inner .left .tel p:not(.phone) {
+    line-height: 1.5;
+  }
+  footer div.inner .left address {
+     line-height: 1.7;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    color: #999999;
+  }
+footer div.inner .left address span{
+  display: none;
+}
+  footer div.inner .left ul.bnb {
+    color: white;
+    gap: 10px;
+  }
+  footer div.inner .left ul.bnb li {
+    
+  }
+  footer div.inner .left ul.bnb li a {
+    padding: 15px 14px;
+    padding-left: 0;
+    font-size: 14px;
+  }
+footer div.inner .left ul.bnb li:not(:first-child) a{
+  color: #999;
+}
+
+  footer div.inner .right {
+    
+  }
+  footer div.inner .right ul.sns {
+    display: flex;
+    margin-bottom: 100px;
+  }
+  footer div.inner .right ul.sns li {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+  }
+  footer div.inner .right ul.sns li a {
+    font-size: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+footer div.inner .right ul.sns li:nth-child(1) a{
+  background-image: url(../img/f.svg);
+}
+footer div.inner .right ul.sns li:nth-child(2) a{
+  background-image: url(../img/i.svg);
+}
+footer div.inner .right ul.sns li:nth-child(3) a{
+  background-image: url(../img/blog.svg);
+  margin-left: 4px;
+  margin-top: 2px;
+}
+  footer div.inner .right > a.email {
+    color: #999;
+    margin-left:10px;
+  }
+footer div.inner .right > a.email::before{
+  content: "";
+  width: 100%;
+  position: absolute;
+  border-top: 1px solid #aaa;
+  left: 0;
+  transform: translateY(-40px);
+}
+footer a.top{
+  font-size: 0;
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  position: absolute;
+  top: -225px;
+  left: calc(50% - 25px);
+  padding: 0;
+  transform: rotate(-90deg);
+  transition: all 0.5s;
+  z-index: 7;
+}
+footer a.top:hover{
+  background-color: #615e5e;
+}
+footer a.top::before{
+  right: calc(50% - 15px);
+  background-color: white;
+}
+footer a.top::after{
+  right: 10px;
+  border-color: white;
+}
+.top:hover span.pentagon{
+  
+  animation-name: none;
+  display: none;
+}

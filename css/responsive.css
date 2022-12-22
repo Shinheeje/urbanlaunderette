@@ -1,0 +1,372 @@
+@media screen and (max-width:1920px){
+ #space{
+    
+  padding: 15.875vw 0 5.2083vw;
+  }
+  #space .inner h2{
+    font-size:9.9vw;
+  }
+  
+}
+@media screen and (max-width:1200px){
+ 
+}
+@media screen and (max-width:768px){
+  /*공통스타일*/
+   .h1{
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Binggrae-Bold';
+  }
+  .h2{
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Binggrae-Bold';
+  }
+  .h3{
+    font-size: 31px;
+    font-weight: 700;
+    font-family: 'Binggrae-Bold';
+  }
+  .h4{
+    font-size: 27px;
+    font-weight: 700;
+  }
+  .h5{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Binggrae-Bold';
+  }
+  header{
+    background-color: black;
+  }
+  header .inner{
+  position: relative; 
+  height: 15.021vw;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  }
+
+  header .inner h1 a{
+    
+  font-size: 3.557291666666667vw;
+  }
+  header .inner .wgnb{
+    position: absolute;
+    left: 0;
+    top: calc(50% - 18px);
+  }
+  header .inner .wgnb a.ham{
+    transform: scale(0.6);
+  }
+  header .inner ul.enb{
+    display: none;
+  }
+  /* title*/
+  #title{
+    padding-top: 19.54166666666667vw;
+    box-sizing: border-box;
+    /*! margin-top: 20vw; */
+  }
+  
+  #title::before{
+    /*! background-color: black; */
+    width: 100%;
+    /*! top: 0; */
+  }
+  #title .inner{
+    height:92%;
+    justify-content: flex-start;
+  }
+  #title .inner h2{
+    order: 2;
+    font-size: 7.4vw;
+    margin-top: 7.604166666666667vw;
+    line-height: 1.5;
+  }
+  #title .inner p{
+    order: 3;
+  }
+  #title .inner iframe{
+    width: 100%;
+    height:52.589vw;
+    position: static;
+    order: 1;
+  }
+  /* main service*/
+  #service .inner{
+    padding-bottom: 23.95833333333333vw;
+  }
+  #service .inner hgroup h2{
+    
+  }
+  #service .inner hgroup h3{
+    
+  line-height: 1.2;
+  }
+  #service .inner .contents{
+    
+    margin-top: 7.8125vw;
+    row-gap: 19.53125vw; 
+  }
+  #service .inner .contents article{
+    
+    width: 100%;
+    transform:initial !important;
+  }
+  #service .inner .contents article a::before{
+    
+    height: 77vw;
+  }
+  /* main space*/
+  #space{
+    background-color: #eee;
+     padding: 15.875vw 0 5.2083vw;
+  }
+  #space .inner{
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+
+  }
+  #space .inner, #miele .inner, #contact .inner, section#instagram{
+    margin-left: 0;
+    padding-left: 10%;
+    height: 72.91666vw;
+    margin-right: 0;
+    padding-right: 10%;
+  }
+  #space .inner h2{
+    font-size:9.9vw;
+    
+  }
+  #space .inner p{
+    color: black;
+    margin-top: 30.25vw;
+    font-size: 6.90625vw;   
+  }
+  #space .inner a.more{
+    color: black;
+  }
+  #space .inner a.more::before{
+    background-color: black;
+  }
+  #space .inner a.more::after {
+  border-color: black;
+    
+  }  
+     /* main stoty*/
+  #story div.inner hgroup {
+    margin-bottom:13.02083333333333vw;
+  }
+  #story div.inner hgroup h2.h5{
+    font-size: 3.5625vw;
+    color: #aaaaaa;
+    margin-bottom: 1.3vw;
+  }
+  #story div.inner hgroup h3.h2{
+    font-size: 7.8125vw;
+    line-height: 1.3;
+  }
+  #story div.inner hgroup h4.h4{
+    line-height: 1.5;
+    margin-top: 2.3vw;
+    font-size: 4.5625vw;
+  }
+  #story div.inner ul.contents{
+    width:100%;
+    display: block;
+  }
+  #story div.inner ul.contents li{
+    width: 100%;
+    height: 62.16145833333333vw;
+  }
+  #story div.inner ul.contents li:nth-child(2){
+    border: none;
+  }
+  #story div.inner ul.contents li::before{
+    margin-bottom: 6.90625vw;
+  }
+  #story div.inner ul.contents p.p{
+    margin-top: 2.90625vw;
+    font-size: 3.5625vw;
+  }
+  /* main MIELE*/
+  section#miele{
+    background-color: #eee;
+   
+  }
+  section#miele div.inner{
+    background-image: url(../img/main-miele-01.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 0;
+  }
+  section#miele div.inner h2.h2{
+     font-size:7.4vw;
+     line-height: 1.2;
+     text-align: center;
+  }
+  section#miele div.inner h2.h2 small.h5{
+    font-size:3.5625vw;
+     line-height: 1;
+    color: #aaa;
+  }
+  section#miele div.inner p{
+    color: black;
+    font-size: 3.90625vw;
+    text-align: center;
+    line-height: 1.2;
+  }
+  section#miele div.inner a.more {
+    color: black;
+    display: block;
+    text-align: center;
+    margin-left:23.155208333333333vw;
+  }
+  section#miele .inner a.more::before{
+    background-color: black;
+  }
+  section#miele .inner a.more::after {
+  border-color: black;
+    
+  }  
+   /* main contact*/
+   #contact{
+    position: relative;
+    background-color: #eee;
+    height: 202.91666vw;
+  }
+  section#contact div.inner{
+    display: block;
+    background-size: contain;
+    width: 70.64583vw;
+    height: 10.64583vw;
+    position: absolute;
+    top: 30px;
+    left: 55px;
+    z-index: 2;
+  }
+  #contact::after{
+    width: 100%;
+    height: 25%;
+    right: 0;
+    top: 0;
+    transform: rotate(180deg);
+    z-index: 1;
+  }
+  section#contact div.inner h2.h2 small.h5{
+    display: block;
+    font-size: 3vw;
+    color: #ccc;
+    margin-bottom: 10px;
+  }
+  section#contact div.inner h2.h2{
+     margin-top: 90px;
+    margin-bottom: 10px;
+     font-size:5.1vw;
+     line-height: 1.3;
+     text-align: center;
+   
+  }
+  section#contact div.inner p{
+    color: black;
+    font-size: 3.33625vw;
+    text-align: center;
+    line-height: 1.3;
+  }
+  section#contact div.inner a.more{
+    display: block;
+    text-align: center;
+    margin-left: 9.155208333333333vw;
+  }
+  section#contact div.inner h2.h2 br:nth-child(2){
+    display: none;
+  }
+  section#contact div.inner h2.h2 br:nth-child(3){
+    display: none;
+  }
+  section#instagram{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  section#instagram div.inner{
+    width: 90%;
+    margin-right: 0;
+    overflow: hidden;
+  }
+  section#instagram div.inner ul.contents{
+    flex-wrap: initial;
+    width: calc(533.33333333333333%);
+    gap: 30;
+  }
+  section#instagram div.inner ul.contents li{  
+  width: 100%;
+  flex-basis: initial;
+  }
+  
+  aside ul{
+    right: 1.9020833vw;
+    bottom:1.9020833vw;
+  }
+  footer{
+  
+  }
+  footer div.inner{
+    display: block;
+    margin-top: 0;
+    height: auto;
+    flex-direction: column;
+  }
+  footer div.inner .left .tel p.phone{
+    font-size: 3vw;
+  }
+  footer div.inner .left .tel p.phone strong{
+    font-size: 10.2083333333vw;
+    margin-bottom: 2.604166vw;
+  }
+  footer div.inner .left .tel p:not(.phone){
+    font-size: 3.2083333333vw;
+    line-height: 1.7;
+  }
+  footer div.inner .left address{
+    font-size: 2.6vw;
+    margin-top: 7.8125vw;
+    margin-bottom: 10.0208333vw;
+  }
+  footer div.inner .left address span{
+    display: block;
+  }
+  footer div.inner .left ul.bnb{
+    gap: 1vw;
+  }
+  footer div.inner .left ul.bnb li a{
+   font-size: 2.5vw;
+   
+  }
+  footer div.inner .right{
+  
+  }
+  footer div.inner .right ul.sns{
+    margin-top: 8.0208333vw;
+    margin-bottom: 16.0208333vw;
+    
+  }
+  footer div.inner .right ul.sns li{
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+  footer div.inner .right ul.sns li:nth-child(1){
+    margin-left: 0;
+  }
+  footer div.inner .right > a.email{
+    font-size: 3vw;
+    margin-left: 0;
+  }
+  footer a.top{
+    display: none;
+  }
+}

@@ -1,0 +1,436 @@
+#service {
+  background-color: #eee;
+}
+#service .inner {
+  
+  padding-bottom: 460px;
+  position: relative;
+}
+#service .inner hgroup {
+  
+}
+#service .inner hgroup h2 {
+  
+}
+#service .inner hgroup h3 {
+  line-height: 2;
+}
+#service .inner .contents {
+  flex-wrap: wrap;
+  row-gap: 150px;
+  margin-top: 60px;
+  column-gap: 50px;
+}
+#service .inner .contents article {
+  width: calc(100% / 3 - 100px / 3);
+}
+#service .inner .contents article:nth-child(3n+1){
+  transform: translateY(25%);
+}
+#service .inner .contents article:nth-child(3n+2){
+  transform: translateY(50%);
+}
+#service .inner .contents article a {
+  
+}
+#service .inner .contents article a::before{
+  content: "";
+  width: 100%;
+  display: block;
+  height: 595px;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.5s;
+  box-sizing: border-box;
+  background-origin: border-box;
+  border: 0px solid #636a52;
+}
+#service .inner .contents article a:hover::before{
+  border: 50px solid #636a52;
+}
+#service .inner .contents article:nth-child(1) a::before{
+  background-image: url(../img/service-01.jpg);
+}
+#service .inner .contents article:nth-child(2) a::before{
+  background-image: url(../img/service-02.jpg);
+}
+#service .inner .contents article:nth-child(3) a::before{
+  background-image: url(../img/service-03.jpg);
+}
+#service .inner .contents article:nth-child(4) a::before{
+  background-image: url(../img/service-04.jpg);
+}
+#service .inner .contents article:nth-child(5) a::before{
+  background-image: url(../img/service-05.jpg);
+}
+#service .inner .contents article:nth-child(6) a::before{
+  background-image: url(../img/service-06.jpg);
+}
+#service .inner .contents article a h4 {
+  line-height: 1.3;
+  margin: 10px 0;
+}
+#service .inner .contents article a p {
+  
+}
+#service .inner .contents article a p:nth-of-type(1){
+  color:#999;
+}
+#service .inner .contents a.more {
+  /*! width: 300px; */
+  position: absolute;
+  bottom: 30px;
+  left: calc(50% - 50px);
+  width: 100px;
+  text-align: center;
+  padding-right:30px
+}
+#service .inner .contents a.more::before{
+  content: "";
+  display:block;
+  width:30px;
+  height:2px;
+  background-color:#333;
+  position:absolute;
+  right:0;
+  top:calc(50% - 1px);
+}
+#service .inner .contents a.more::after{
+  content: "";
+  display:block;
+  width:8px;
+  height:8px;
+  border: 2px solid #333;
+  transform:rotate(45deg);
+  border-bottom:transparent;
+  border-left: transparent;
+  position:absolute;
+  right:0;
+  top:calc(50% - 5px);
+}
+
+/* space */
+#space{
+  position: relative;
+  padding: 280px 0 100px;
+}
+#space .inner{
+  margin-left: 0;
+  padding-left: 10%;
+  height: 560px;
+  background-image: url(../img/main-space-01.jpg);
+}
+#space .inner h2{
+  font-size: 199px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+#space .inner>*:not(h2){
+  color: #fff;
+}
+#space .inner p{
+line-height: 1.2;
+margin-bottom:40px;
+margin-top:120px;
+}
+#space .inner a.more{
+
+}
+#space .inner a.more:before{
+  background-color: #fff;
+}
+.more span.pentagon{
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-image: url(../img/pentagon-3.svg);
+  background-size: cover;
+  position: absolute;
+  right: -13px;
+  top: calc(50% - 15px);
+  display: none;
+}
+.more:hover span.pentagon{
+  display: block;
+  animation-name: moreRotate;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 40% 55%;
+  animation-timing-function: linear ;
+}
+@keyframes moreRotate{
+  0%{
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+    transform: rotate(360deg);
+  }
+}
+#space .inner a.more::after{
+  border-color: #fff;
+}
+/*STORY*/
+
+#story {
+  
+}
+#story div.inner {
+  
+}
+#story div.inner hgroup {
+  margin-bottom: 100px;
+}
+#story div.inner hgroup h2.h5{
+  font-size: 20px;
+  /*! margin-bottom: 20px; */
+  color: #aaaaaa;
+}
+#story div.inner hgroup h3.h2{
+  font-size: 60px;
+  line-height: 2;
+}
+#story div.inner hgroup h4.h4{
+  line-height: 1.5;
+  margin-top: 10px;
+  font-size: 22px;
+}
+#story div.inner ul.contents {
+  width: 90%;
+ 
+}
+#story div.inner ul.contents li{
+  width: calc(100% / 3);
+  height: 247px;
+  flex-grow: 1;
+}
+#story div.inner ul.contents li:nth-child(2){
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+#story div.inner ul.contents li:before{
+  content: "";
+  display: block;
+  height: 90px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 60px;
+}
+#story div.inner ul.contents li:nth-child(1):before{
+  background-image: url(../img/story1.svg)
+}
+#story div.inner ul.contents li:nth-child(2):before{
+  background-image: url(../img/story2.svg)
+}
+#story div.inner ul.contents li:nth-child(3):before{
+  background-image: url(../img/story3.svg)
+}
+#story div.inner ul.contents h5.h5 {
+ 
+  
+}
+#story div.inner ul.contents p.p {
+  margin-top: 20px;
+}
+#story div.inner a.more {
+  margin-top: 80px;
+}
+#story div.inner a.more span.pentagon {
+  
+}
+/*MIELE*/
+section#miele {
+  position: relative;
+}
+section#miele div.inner{
+  height: 560px;
+  background-image: url(../img/main-miele-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  padding-left: 10%;
+  margin-left: 0;
+  
+}
+section#miele div.inner h2.h2,section#contact div.inner h2.h2{
+  line-height: 1.5;
+}
+section#miele div.inner h2.h2 small.h5,section#contact div.inner h2.h2 small.h5 {
+  
+}
+section#miele div.inner p.p{
+  margin-top: 20px;
+  font-size: 15px;
+}
+section#miele div.inner a.more{
+  color: white;
+  margin-top: 100px;
+}
+section#miele .inner a.more:before{
+  background-color: #fff;
+}
+section#miele .inner a.more:after{
+  border-color: white;
+}
+section#miele::after{
+  content:"";
+  width:30%;
+  height: 320px;
+  right: 0;
+  bottom: 0;
+  background-color: #767c69;
+  position: absolute;
+  z-index:-1;
+}
+#contact{
+  position: relative;
+  height:100%;
+}
+#contact::after{
+  content:"";
+  width:30%;
+  height: 100%;
+  right: 0;
+  bottom: 0;
+  background-color: #767c69;
+  position: absolute;
+  z-index:-1;
+}
+section#contact div.inner{
+  padding-top: 300px;
+  background-image: url(../img/main-register-01.jpg);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  box-sizing: border-box;
+}
+section#contact div.inner a.more {
+  color: black;
+  margin-top: 100px;
+}
+section#contact .inner a.more:before{
+  background-color: black;
+}
+section#contact .inner a.more:after{
+  border-color: black;
+}
+section#contact div.inner p.p{
+  line-height: 1.9;
+}
+/*INSTAGRAM*/
+section#instagram {
+  background-color: #222222;
+}
+section#instagram div.inner {
+  row-gap: 60px;
+}
+section#instagram div.inner h2.h2 {
+  color: white;
+}
+section#instagram div.inner ul.contents{
+  gap: 30px;
+  flex-wrap:wrap;
+}
+section#instagram div.inner ul.contents li{
+  flex-basis: calc(100% / 4 - 90px / 4);
+}
+section#instagram div.inner ul.contents li a {
+  position: relative;
+  display: block;
+}
+section#instagram div.inner ul.contents li a::before{
+  content:"";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: all 0.7s;
+}
+section#instagram div.inner ul.contents li a:hover::before{
+  opacity: 1;
+}
+section#instagram div.inner ul.contents li a::after{
+  content:"";
+  width: 70px;
+  height: 30px;
+  display: block;
+  background-image: url(../img/logo-instagram.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0;
+  position: absolute;
+  top: 15px;
+  right:-25px;
+  z-index: 2;
+}
+section#instagram div.inner ul.contents li a:hover::after{
+  opacity: 1;
+}
+section#instagram div.inner ul.contents li a figure {
+  
+}
+section#instagram div.inner ul.contents li a figure img {
+  display: block;
+}
+section#instagram div.inner ul.contents li a p.p {
+  position: absolute;
+  color: white;
+  bottom: 0;
+  left: 0;
+  padding:20px;
+  opacity: 0;
+  transition: all 0.7s;
+  display: block;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  box-sizing: border-box;
+}
+section#instagram div.inner ul.contents li a:hover p.p{
+  display: block;
+  opacity: 1;
+}
+/* ASIDE*/
+aside{
+  position: sticky;
+  right: 30px;
+  bottom: 30px;
+  z-index: 1;
+}
+aside ul{
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+aside a{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 60px;
+  display: block;
+  font-size: 12px;
+  margin: 10px 0;
+  font-weight: 900;
+}
+aside a.shop{
+  background-color: #333;
+  color:white;
+}
+aside a.kakao{
+  background-color: rgba(241, 238, 9, 0.911);
+  color: #333;
+}
+
